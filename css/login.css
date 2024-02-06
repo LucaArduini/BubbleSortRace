@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFBF00;
+    width: 100%;
+    height: 100%;
+}
+.containerForm {
+    display: block;
+    background-color: #49453B;
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -125px;
+    text-align: center;
+    line-height: 30pt;
+    font-size: x-large;
+    font-family: 'Cooper Black';
+    color: #FF5800;
+    border-radius: 25pt;
+    box-shadow: 7.5px 7.5px 5px gray;
+}
+form > p {
+    font-size: smaller;
+}
+.formInput{
+    display: block;
+    width: 250px;
+    height: 25pt;
+    border: 1pt solid gray;
+    border-radius: 5pt;
+    background-color: #FFBF00;
+    font-family: 'Cooper Black';
+    font-size: 27px;
+    text-align: center;
+    margin: 0 auto;
+}
+#goToRegistration {
+    background-color: #49453B;
+    border: none;
+    text-decoration: underline;
+    font-size: smaller;
+    font-family: 'Cooper Black';
+    color: green;
+    cursor: pointer;
+}
+#gameTitleLong{
+    position: absolute;
+    width: 40%;
+    margin: 3% 30%; 
+}
+#formBtn {
+    display: inline-block;
+    border: 0;
+    border-radius: 5pt;
+    background-color: #FFBF00;
+    font-family: 'Cooper Black';
+    color: white;
+    width: max-content;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: smaller;
+    margin: 15px auto;
+    cursor: pointer;
+}

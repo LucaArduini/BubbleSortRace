@@ -1,0 +1,103 @@
+.alertbox {
+	display: block;
+	position: absolute;
+
+	width: 400pt;
+	height: max-content;
+
+	left: calc(50% - 240pt);
+	top: calc(50% - 140pt);
+
+	padding: 30pt;
+
+	z-index: 5;
+	background-color: #FFBF00;
+	border-radius: 10pt;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	overflow: auto;
+
+    cursor: default;
+}
+
+.alertbox3, .endMPGameAlert{
+    top: 15%;
+}
+.endMPGameAlert > p{
+    margin-top: -10px;
+}
+#__alarm_ok1, #__alarm_ok2{
+    margin-top: 15px;
+}
+
+.alertbox > h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 25pt;
+}
+
+
+.alertbox > p {
+	text-align: justify;
+	width: 100%;
+	font-size: 14pt;
+	margin-top: 5pt;
+	color: #3a3a3a;
+}
+
+.opacity {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	z-index: 4;
+
+	background-color: #000000bb;
+}
+
+#containerFormHost > h3{
+    font-size: 55px;
+}
+
+/*----------------------------------*/
+.buttons-container_one {
+	display: block;
+	width: max-content;
+	margin: 0 auto;
+	margin-bottom: -15pt;
+}
+
+.alertBtnOne {
+    cursor: pointer;
+    width: 90px;
+}
+
+/*----------------------------------*/
+.buttons-container_four{
+    margin: 0 auto;
+    font-size: 0px;
+    width: 315px;
+    height: 80px;
+}
+
+.alertBtnFour{
+    margin-left: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.buttons-container_four img{
+	width: 60px;
+	height: 60px;
+}
+
+#__alarm_left {
+	margin-left: 0px;
+}
+/*----------------------------------*/
+
+#gif_win{
+    width: 80%;
+    margin: 0 10%;
+}

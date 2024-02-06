@@ -1,0 +1,62 @@
+#containerFirstRow {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 45%;
+    top: 35%;
+    left: 50%;
+    margin-left: -50%;
+}
+#containerSecondRow {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 45%;
+    top: 60%;
+    left: 50%;
+    margin-left: -50%;
+}
+.containerTube {
+    display: inline-block;
+    width: 50pt;
+    height: 165pt;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    cursor: pointer;
+}
+
+/*-------------------------------------------*/
+.headTube {
+    display: block;
+    width: 50pt;
+    height: 1pt;
+    position: relative;
+    left: 50%;
+    margin-left: -27pt;
+    border: 2pt solid white;
+    border-radius: 5pt;
+    background-color: white;
+}
+.tube {
+    display: block;
+    width: 40pt;
+    height: 160pt;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2pt solid white;
+    border-top: none;
+    border-bottom-left-radius: 20pt;
+    border-bottom-right-radius: 20pt;
+}
+.place {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40pt;
+    height: 40pt;
+    border-radius: 20pt;
+    margin-left: auto;
+    margin-right: auto;
+}
