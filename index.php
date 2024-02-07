@@ -16,6 +16,7 @@ if(isset($_SESSION['logged'])){
 
         <link rel="stylesheet" type="text/css" href="css/login.css">
         <link rel="stylesheet" type="text/css" href="css/alertbox.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="js/adoss.js"></script>
         <script src="js/login.js"></script>
@@ -35,5 +36,11 @@ if(isset($_SESSION['logged'])){
                 <p>Se non sei ancora registrato premi <button id="goToRegistration">qui</button>.</p>
             </form>
         </div>
+        <footer>
+            <div class="footer-container">
+                <span>Created by </span>
+                <a href="https://github.com/LucaArduini" target="_blank">Luca Arduini</a>
+            </div>
+        </footer>
     </body>
 </html>
