@@ -1,0 +1,23 @@
+/* Footer style */
+footer {
+    background-color: #49453B; /* Stesso colore di sfondo del .containerForm */
+    color: #FF5800; /* Stesso colore del testo del .containerForm */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px gray;
+    font-family: 'Cooper Black';
+    font-size: medium; /* Un po' più piccolo rispetto a 'x-large' per un footer */
+}
+
+footer a {      /* tag <a> all'interno del footer */
+    color: #FFBF00;
+    text-decoration: none;
+    font-size: medium; /* Per coerenza con il resto del testo del footer */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
