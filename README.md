@@ -1,4 +1,4 @@
-Progetto per il corso di **Progettazione Web** (2020-21) presso l'Università di Pisa.
+Progetto per il corso di "**Progettazione Web**" (2020-21) presso l'Università di Pisa.
 
 # BubbleSortRace
 <p align="center">
